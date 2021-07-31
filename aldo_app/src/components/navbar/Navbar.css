@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    padding: 0 10%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 150;
+    gap: 1%;
+    color: white;
+    user-select: none;
+}
+
+.navbarBrand{
+    width: 140px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.navbarUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: auto;
+}
+
+.navbarUser h4{
+    margin-left: 15px;
+}
+
+.navbarMenu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Economica', sans-serif;
+}
+
+.navbarUlMenu{
+    display: flex;
+    gap: 20px;
+    font-size: 20pt;
+}
+
+.navbarLink{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .navbar{
+        width: 500px;
+        padding: 20px;
+    }
+
+    .navbarMenu{
+        display: none;
+    }
+
+    .navbarUser{
+       display: none;
+    }
+
+    .navbarArrow{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,57 @@
+.imageUpload{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: black;
+    transition-duration: 0.5s;
+    position: fixed;
+    bottom : 0;
+    margin-bottom: 90px;
+    z-index: 10;
+}
+
+.imageUploadProgress{
+    width: 90%;
+}
+
+.imageInputCaption{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-bottom: 5px solid rgb(16, 16, 209);
+    outline: none;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+.imageInputFile{
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    background: rgb(5,220,255);
+    background: linear-gradient(210deg, rgba(5,220,255,0.9351890414368873) 0%, rgba(46,0,233,1) 100%);
+    color: white;
+}
+
+
+.imageUploadButton{
+    border-radius: 10px;
+    width: 90%;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    background: rgb(5,220,255);
+    background: linear-gradient(210deg, rgba(5,220,255,0.9351890414368873) 0%, rgba(46,0,233,1) 100%);
+    color: white;
+}

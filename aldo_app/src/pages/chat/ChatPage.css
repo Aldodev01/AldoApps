@@ -1,0 +1,13 @@
+.chatPage{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 0;
+    background: rgb(93,254,255);
+    background: linear-gradient(276deg, rgba(93,254,255,1) 0%, rgba(209,0,255,0.7822479333530288) 51%, rgba(93,254,255,1) 100%);
+}

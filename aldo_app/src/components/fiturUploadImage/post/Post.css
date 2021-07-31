@@ -1,0 +1,73 @@
+.post{
+    max-width: 500px;
+    height: auto;
+    background: rgba( 0, 220, 255, 0.80 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+    border-radius: 10px;
+    border-top: 1px solid rgba(0,0, 0, 0.09);
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0, 0, 0.2);
+    z-index: 9;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+}
+
+.postHeader{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 8vh;
+}
+
+/* .postUserHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .postUsername{
+    margin-left: 25px;
+} */
+
+.postImage {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #272727;
+}
+
+.postIcon{
+    padding: 10px 20px;
+    height: 50px;
+    gap: 10px;
+    display: flex;
+    border-bottom: 2px solid aliceblue;
+    color: aliceblue;
+}
+
+
+
+.postTextCap{
+    font-weight: normal;
+    padding: 0 20px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.postAvatar {
+    margin-right: 10px;
+    
+}
+
+.logoBrand{
+    width: 30px;
+    display: flex;
+}

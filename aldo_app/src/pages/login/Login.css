@@ -1,0 +1,221 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2% ;
+    background-color: rgb(0, 64, 93);
+}
+
+.loginHeader{
+    background-color: aliceblue;
+    display: flex;
+    width: 95vw;
+    height: auto;
+    min-height: 90vh;
+    border-radius: 15px;
+    justify-content: space-between;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.loginLeft{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.loginOrang{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 280px;
+    z-index: 10;
+}
+
+.loginKiri{
+    position: absolute;
+    width: 700px;
+    left: 90px;
+}
+
+.loginRight{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
+
+.loginBrand{
+    width: 300px;
+}
+
+.loginEmail{
+    border: none;
+    padding: 10px;
+    border-bottom: 5px solid rgb(16, 16, 209);
+    outline: none;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+.loginPassword{
+    border: none;
+    padding: 10px;
+    border-bottom: 5px solid rgb(16, 16, 209);
+    outline: none;
+    background-color: aliceblue;
+}
+
+.loginContinue{
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    background: rgb(5,220,255);
+    background: linear-gradient(210deg, rgba(5,220,255,0.9351890414368873) 0%, rgba(46,0,233,1) 100%);
+    color: aliceblue;  
+}
+
+.loginOr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 90%;
+}
+
+.loginOr > h2 {
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.loginGoogle{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    background: rgb(143,255,0);
+    background: linear-gradient(210deg, rgba(143,255,0,1) 0%, rgba(0,215,255,1) 100%); 
+    color: aliceblue; 
+}
+
+.loginGoogle:hover{
+    background: rgb(85,151,0);
+    background: linear-gradient(210deg, rgba(85,151,0,1) 0%, rgba(1,122,144,1) 100%);
+}
+
+.fa-google{
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .login{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .loginHeader{
+        flex-direction: column;
+        height: 93vh;
+    }
+
+    .loginLeft{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginRight{
+        width: 100%;
+        height: 70%;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginKiri{
+        width: 70%;
+        position: static;
+        margin-top: 30px;
+    }
+
+    .loginOrang{
+        width: 40%;
+        left: 0.2px;
+        top: 70px;
+    }
+
+    .loginBrand{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .login{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .loginHeader{
+        flex-direction: column;
+        height: 97vh;
+    }
+
+    .loginLeft{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginRight{
+        width: 100%;
+        height: 60%;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginKiri{
+        width: 60%;
+        position: static;
+        margin-top: 30px;
+    }
+
+    .loginOrang{
+        width: 35%;
+        left: 0.2px;
+        top: 70px;
+    }
+
+    .loginBrand{
+        width: 60%;
+        margin-top: 20px;
+    }
+}

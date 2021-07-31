@@ -1,0 +1,30 @@
+.portofolio{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.portUpload{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.portofolioPost{
+  flex: 25%;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+

@@ -1,0 +1,29 @@
+.postPort{
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+.postPort img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.postText{
+    display: grid;
+    bottom: 90px;
+    position: relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 64%);
+    border-radius: 15px; 
+}
+
+.postText h4{
+    color: white;
+    bottom: -20px;
+    position: relative;
+}

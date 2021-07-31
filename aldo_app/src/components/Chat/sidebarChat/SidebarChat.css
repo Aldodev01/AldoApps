@@ -1,0 +1,21 @@
+.sidebarChat{
+    display: flex;
+    width: 90%;
+    height: auto;
+    color: white;
+}
+
+.sidebarChatAvatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarChatInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarChatInfo > h3 p{
+    text-decoration: none;
+}

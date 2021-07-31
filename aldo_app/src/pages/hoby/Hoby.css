@@ -1,0 +1,85 @@
+.hoby{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030519;
+}
+
+.hobyProfile{
+    display: flex;
+    width: auto;
+    position: fixed;
+    top: 160px;
+    right: 80px;
+    z-index: 1;
+}
+
+/* .hobyWrap{
+    width: 95vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    background-color: aliceblue;
+    border-radius: 15px;
+} */
+
+.hobyUpload{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hobyPosts{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.hobyPosts::-webkit-scrollbar {
+    width: 15px;
+    background-color: aliceblue;
+}
+
+.hobyPosts::-webkit-scrollbar-track {
+    border: 5px solid aliceblue;
+    background-color: rgb(133, 133, 133);
+}
+
+.hobyPosts::-webkit-scrollbar-thumb {
+    background: rgba(0, 60, 255, 0.555);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.0px );
+    -webkit-backdrop-filter: blur( 2.0px );
+    border-radius: 20px;
+  }
+
+.img1 img{
+    width: 300px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    right: 300px;
+}
+
+
+
+.img2 img{
+    width: 500px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 100px;
+    bottom: 0;
+}
+
